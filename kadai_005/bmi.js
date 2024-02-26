@@ -1,9 +1,7 @@
-let BW;
+let BW = 68;
 
-BW = 68;
+let height = 1.7;
 
-let height;
+let BMI = BW / (height * height)
 
-height = 1.7;
-
-console.log(BW / (height * height)  );
+console.log (BMI)
