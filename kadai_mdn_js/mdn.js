@@ -4,8 +4,6 @@ const month = today.getMonth()+1;
 const date = today.getDate();
 const year = today.getFullYear();
 
-console.log(year+'年');
-console.log(month+'月');
-console.log(date+'日');
+console.log(year+'年'+month+'月'+date+'日');
 
 
